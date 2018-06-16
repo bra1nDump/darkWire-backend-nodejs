@@ -2,7 +2,11 @@
   "name": "darkwire-backend-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+    "main": "index.js",
+    "dependencies": {
+        "express": "*",
+        "md5": "*"
+    },
   "scripts": {
       "test": "node index.js",
       "start": "node index.js"
